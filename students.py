@@ -18,11 +18,11 @@ users = {
   ]
  }
 
-def show_students(arr):
+def all_students(arr):
     for x in students:
         print x['first_name'], x['last_name']
 
-def show_all(users):
+def all_u(users):
     for role in users:
         counter = 0
         print role
@@ -33,5 +33,5 @@ def show_all(users):
             length = len(person['first_name']) + len(person['last_name'])
             print "{} - {} {} - {}".format(counter, person['first_name'], person['last_name'], length)
 
-show_students(students)
-show_all(users)
+all_students(students)
+all_u(users)
