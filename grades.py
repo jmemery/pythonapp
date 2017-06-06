@@ -1,8 +1,8 @@
 import random
 
-def grade(reps):
+def grade(scores):
     print "Scores and Grades"
-    for x in range(0, reps):
+    for x in range(0, scores):
         score = random.randint(60, 101)
         if score >= 60 and score <= 69:
             print "Score: ", score,"; Your grade is a D"

@@ -7,4 +7,5 @@ def make_dict(arr1, arr2):
     newdict = {}
     newdict = dict(itertools.izip(name,favorite_animal))
     print (newdict)
+    #return make_dict
 make_dict(name, favorite_animal)

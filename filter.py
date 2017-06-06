@@ -24,3 +24,7 @@ if len(lL)>= 10:
     print "Big List"
 else:
     print "Short List"
+if len(str(spL)) >= 10:
+    print "Small string"
+else:
+    print "long string"
