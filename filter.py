@@ -16,12 +16,11 @@ spL = ['name','address','phone number','social security number']
     #print "Thats a big number!"
 #else:
     #print "Thats a small number"
-if type(str) in sS >= 50:
+if len(sS) >= 50:
     print "Long Sentence"
 else:
     print "Short Sentence"
-if type(list) in spL >= 10:
+if len(lL)>= 10:
     print "Big List"
 else:
     print "Short List"
-    
