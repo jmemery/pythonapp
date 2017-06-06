@@ -24,3 +24,4 @@ if type(list) in spL >= 10:
     print "Big List"
 else:
     print "Short List"
+    
