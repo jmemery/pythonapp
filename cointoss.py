@@ -9,7 +9,7 @@ def coin(reps):
     result_string_complete = ""
 
     for x in range(1, reps):
-        new_toss = random.randint(0,1)
+        new_toss = random.randint(0, 1)
         if new_toss == 1:
             head_count += 1
             result = "head"
