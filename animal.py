@@ -51,7 +51,7 @@ class Turtle(Animal):
 
 animal = Animal('', 100)     #default animal
 dog = Dog()                  #created new dog
-cat = Animal('cat', 100)     # test animal
+cat = Animal('cat', 100)     #test animal
 dragon = Dragon()            #created new Dragon
 turtle = Turtle()            #created a new lazer shooting turtle
 #dog = Dog('dog', 100) `commented out code`
